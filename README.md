@@ -6,6 +6,8 @@
 
 Servlet is a simple java program that runs on server and capable of handling request and generating dynamic response.
 
+- @webServlet("/man") ne pas oublier le **/**
+
 ![](./screenshot.png)
 
 ## INSTALLATION TOMCAT
@@ -42,6 +44,28 @@ Servlet is a simple java program that runs on server and capable of handling req
 
 - Go to C:\Program Files\Apache Software Foundation and select the tomcat folder
 
+### TABLE OF CONTENT
+
+- **JDBC**
+
+- **Testing**
+
+- **youtube**
+
+- **ZTEST**
+
+- **request dispatcher**
+
+- **Sessions**
+
+- **Session Login**
+
+- **URL REWRITING**
+
+- **HTTPSESSION**
+
+- 
+
 ### LIFECYCLE
 
 ![](./lifecycle.png)
@@ -51,3 +75,9 @@ Servlet is a simple java program that runs on server and capable of handling req
 - **call init() method for servlet information**
 
 - **service() method get called for processing the request**
+
+![](./parameter.png)
+
+- Attributes these are the objects that are attached by one servlet to  object(session, request ,config, context) and other servlet can fetch that object to process to logic.
+
+- Servlet can easily **modify , add and remove** the content of attribute when required.

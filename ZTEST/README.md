@@ -1,7 +1,5 @@
 ## CREATE SERVLET USING javax.servlet.Servlet interface
 
-
-
 ### 1. LIVE CYCLE METHOD OF INTERFACE
 
 ```java

@@ -4,6 +4,12 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+    <!-- Definir les fichier par defaut a lancer au navigateur -->
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
     
     <!-- Servlet declaration -->
     <servlet>
@@ -41,4 +47,7 @@
             30
         </session-timeout>
     </session-config>
+    
+    
+    
 </web-app>

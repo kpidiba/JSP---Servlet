@@ -36,11 +36,13 @@ public class RegisterServlet extends HttpServlet {
             out.println("<h2>email: ".concat(email).concat("</h2>"));
             out.println("<h2>gender: ".concat(gender).concat("</h2>"));
             out.println("<h2>course: ".concat(course).concat("</h2>"));
+
+//            Forward Dispatcher
             RequestDispatcher rdis = request.getRequestDispatcher("Success");
             rdis.forward(request, response);
         } else {
 
-//            Dispatcher    
+//           Include Dispatcher
             out.println("<h2>You have not accepted terms and conditions</h2>");
             RequestDispatcher rdis = request.getRequestDispatcher("index.html");
             rdis.include(request, response);

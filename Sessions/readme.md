@@ -20,8 +20,6 @@ Cookie co = new Cookie("name","value");
 
 - cookies defined in key value pair
 
-
-
 ### SESSIONS TRACKING TECHNIQUES
 
 - Cookies
