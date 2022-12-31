@@ -34,7 +34,7 @@ Servlet is a simple java program that runs on server and capable of handling req
 
 - Go to C:\Program Files\Apache Software Foundation
 
-- Right click on Tomcat folder , Security > edit , Full controle to all users (enlever le read-only)
+- Enter in the folder tomcat version to get the permission
 
 ### ADD TO NETBEANS
 
