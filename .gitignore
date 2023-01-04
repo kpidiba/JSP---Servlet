@@ -33,3 +33,5 @@
 /JSP-tag/dist/
 /JSP-tag/build/
 /JSP-Tag/target/
+/autowiring/target/
+/springorm/target/

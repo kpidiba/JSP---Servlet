@@ -24,6 +24,7 @@ public class Main {
         String password="";
         String query = "select * from exams";
         try {
+            //  Api to perform Operation With database
             //class.forName() is a method in Java that returns the class object associated
             //with the class or interface passed as the first parameter
             //Use the Class. forName() method to load the driver. The forName() method dynamically 

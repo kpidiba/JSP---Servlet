@@ -1,7 +1,5 @@
 # JSP TAG
 
-
-
 - Use Tomcat 9 not 10
 
 - **JSTL**
@@ -9,8 +7,6 @@
 ```java
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 ```
-
-
 
 ### CUSTOM TAG
 
@@ -22,15 +18,11 @@
 <%@ taglib prefix="t" uri="/WEB-INF/tlds/custom.tld" %>
 ```
 
-
-
 ### IMPLICIT OBJECT
 
 There are 9 jsp implicit objects .These objects are created  by the web container that are available to all jsp pages.
 
 La liste : **out, request,response,config,application,session,pageContext,page,exception** .
-
-
 
 - web.xml
 
